@@ -1,10 +1,7 @@
 import {VscGithubInverted} from 'react-icons/vsc'
 import styles from './styles.module.scss';
 import {useContext, useEffect} from "react";
-import {api} from "../../services/api";
 import {AuthContext} from "../../contexts/auth";
-
-
 
 export function LoginBox() {
     const {signInUrl, user} = useContext(AuthContext);
