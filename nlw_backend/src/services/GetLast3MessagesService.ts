@@ -17,4 +17,4 @@ class GetLast3MessagesService {
     }
 }
 
-export { GetLast3MessagesService };
+export {GetLast3MessagesService};

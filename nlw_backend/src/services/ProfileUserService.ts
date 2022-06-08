@@ -11,4 +11,4 @@ class ProfileUserService {
     }
 }
 
-export { ProfileUserService };
+export {ProfileUserService};

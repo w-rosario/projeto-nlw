@@ -1,6 +1,6 @@
 import axios from "axios";
 import prismaClient from "../prisma"
-import { sign } from "jsonwebtoken"
+import {sign} from "jsonwebtoken"
 /** <h1>Regras de negócio</h1>
  *<ul>
  * <li>Receber o code(string) -- OK</li>
@@ -75,7 +75,7 @@ class AuthenticateUserService {
          expiresIn: "1d"
       }
       )
-      return { token, user };
+      return {token, user};
    }
 }
-export { AuthenticateUserService }
+export {AuthenticateUserService}
