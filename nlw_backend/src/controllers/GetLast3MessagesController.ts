@@ -1,4 +1,4 @@
-import { Request, Response } from "express";
+import {Request, Response} from "express";
 import {GetLast3MessagesService} from "../services/GetLast3MessagesService";
 
 class GetLast3MessagesController {
@@ -9,4 +9,4 @@ class GetLast3MessagesController {
         return response.json(result);
     }
 }
-export  { GetLast3MessagesController }
+export  {GetLast3MessagesController}

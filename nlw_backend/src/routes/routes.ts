@@ -5,7 +5,6 @@ import {ensureAuthenticated} from "../middleware/ensureAuthenticated";
 import {GetLast3MessagesController} from "../controllers/GetLast3MessagesController";
 import {ProfileUserController} from "../controllers/ProfileUserController";
 
-
 const router = Router();
 
 router.post("/authenticate", new AuthenticateUserController().handle);
